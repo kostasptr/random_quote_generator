@@ -1,5 +1,5 @@
 # 6th project #
 ### Random Quote generator ###
 * HTML
-* Jacascript
+* Javascript
 * SASS
