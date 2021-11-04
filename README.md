@@ -1,4 +1,5 @@
-# random_quote_generator
-***HTML***
-***Javacript***
-***SASS***
+# 6th project #
+### Random Quote generator ###
+* HTML
+* Jacascript
+* SASS
