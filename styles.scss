@@ -1,0 +1,92 @@
+$font-q: Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-q-size: 1rem;
+$font-r: Tangerine, cursive;
+$font-r-size: 2rem;
+$bgbody1: #029fb8;
+$bgbody2: #00798b;
+$bgbody3: #00444e;
+$bgquote: #f5edeb;
+$borderquote:#e4c9af;
+
+$bgbtn: #dfad7e;
+$bgbtn-hover: #ca884a;
+
+$font-q-col: grey;
+$font-btn-col: white;
+
+
+body {
+  background-image: radial-gradient($bgbody1, $bgbody2, $bgbody3);
+  margin:0;
+  padding:0;
+}
+
+p{
+  margin:0;
+  padding:0;
+}
+
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  height: 40vh;
+  margin-bottom:10px;
+  color: $font-q;
+  box-shadow: 20px 10px 30px rgb(87, 87, 87);
+  background-color: $bgquote;
+  border: solid 10px $borderquote;
+  border-radius: 15px;
+  //margin-top: 40px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.quoteP1 {
+  font-family: $font-q;
+  font-size: $font-q-size;
+  text-align: center;
+  color: $font-q-col; 
+  margin: 0 20px;
+}
+
+.quoteP2 {
+  font-family: $font-r;
+  font-size: $font-r-size;
+  text-align: center;
+  color: $font-q-col;
+  margin-top:10px;
+}
+
+.btn {
+  width:150px;
+  height: 40px;
+  margin-top: 10px;
+  color: $font-btn-col;
+  font-family: $font-q;
+  font-size:1rem;
+  box-shadow: 15px 5px 20px rgb(87, 87, 87);
+  background-color: $bgbtn;
+  border: solid 1px rgb(94, 93, 93);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: $bgbtn-hover;
+}

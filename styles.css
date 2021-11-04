@@ -1,0 +1,95 @@
+body {
+  background-image: radial-gradient(#029fb8, #00798b, #00444e);
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45vw;
+  height: 40vh;
+  margin-bottom: 10px;
+  color: Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-box-shadow: 20px 10px 30px #575757;
+          box-shadow: 20px 10px 30px #575757;
+  background-color: #f5edeb;
+  border: solid 10px #e4c9af;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.quoteP1 {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: grey;
+  margin: 0 20px;
+}
+
+.quoteP2 {
+  font-family: Tangerine, cursive;
+  font-size: 2rem;
+  text-align: center;
+  color: grey;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  color: white;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  -webkit-box-shadow: 15px 5px 20px #575757;
+          box-shadow: 15px 5px 20px #575757;
+  background-color: #dfad7e;
+  border: solid 1px #5e5d5d;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #ca884a;
+}
+/*# sourceMappingURL=styles.css.map */
